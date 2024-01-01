@@ -1,0 +1,97 @@
+body{
+     background: darkblue;
+}
+
+.wrapper{
+    margin: 0 auto;
+    /* background: red; */
+    width: 600px;
+    height: 600px;
+    margin-top: 7rem;
+}
+
+.ToDoBox {
+    margin: 0 auto;
+    margin-top: 10rem;
+    position: relative;
+    background: #424242;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 5px 10px 10px;    
+}
+
+.AddSection {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-left: 7.5rem;
+}
+
+.type {
+    flex: 1 1 0%;
+    background: #1f2937;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-left: -3rem;
+    font-size: 1.25rem;
+    border: none;
+    color: white;
+    /* border: none;
+    border-radius: 5px;
+    height: 1.5rem;
+    background: none;
+    border: 1px solid black; */
+}
+
+.AddButton {
+    color: #E599F7;
+    font-size: 1.2rem;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #DA77F2, #862E9C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.type:hover {
+    direction: none;
+    border: none;
+}
+
+.Task {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    background:#1f2937;
+    width: 25rem;
+    height: 3rem;
+}
+
+.TaskButton {
+    color: #E599F7;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, #DA77F2, #862E9C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.TaskButton {
+    position: relative;
+    float: right;  
+    margin-top: 15px;   
+}
+
+.TaskText {
+    position: relative;
+    color: white;
+}
